@@ -1,7 +1,6 @@
 const http = require('http')
 const fs = require('fs')
 
-
 const server = http.createServer()
 
 server.on('request', (request, response)=> {
@@ -14,6 +13,5 @@ server.on('request', (request, response)=> {
 
 const PORT = 8888
 
-server.listen(PORT , ()=> {
-  console.log(`server is running on: ${PORT}`)
-})
+server.listen(PORT , ()=> { console.log(`server is running on: ${PORT}`)})
+
