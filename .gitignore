@@ -5,3 +5,4 @@ xx.txt
 another_big_file.txt
 small_file.*
 writable.txt
+.DS_Store
