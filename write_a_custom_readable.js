@@ -13,6 +13,8 @@ inStream.push(null)
 
 // 等同于
 inStream.on('data', (chunk) => {
+
+  console.dir(chunk, {depth: null})
   process.stdout.write(chunk)
   console.log('11')
 })
